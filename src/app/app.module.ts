@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SearchComponent } from './components/search/search.component';
-import { WeatherComponent } from './pages/weather/weather.component';
+import { SearchModule } from './components/search/search.module';
+import { WeatherModule } from './pages/weather/weather.module';
 
 
 
@@ -15,8 +15,8 @@ import { WeatherComponent } from './pages/weather/weather.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SearchComponent,
-    WeatherComponent
+    SearchModule,
+    WeatherModule
   ],
   providers: [],
   bootstrap: [AppComponent]
