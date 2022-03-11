@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+@import 'variables';
+
+html, 
+body, 
+div, 
+input {
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $secondary-color;
+    color: $grey;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-bottom: 2rem;
+    width: 50%;
+}
+
+/* Utilities */
+.width-33 {
+    width: 33.33%;
+}
+
+.my-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.py-auto {
+    padding-bottom: auto;
+    padding-top: auto;
+}
+
+.px-auto {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 95%;
+    }
+}
